@@ -1,0 +1,50 @@
+$large-header-color: #008cba;
+
+main {
+  min-height: 400px;
+}
+img {
+  max-width: 100%;
+}
+.navbar-brand {
+  padding: 0;
+}
+#logo-image {
+  height: 45px;
+  width: auto;
+}
+.large-header {
+  margin-top: 45px;
+  padding: 3%;
+  min-height: 200px;
+  background:$large-header-color;
+  h1 {
+    font-size: 4em;
+    color: #fff;
+  }
+  p {
+    font-size: 1.7em;
+    color: #fff;
+  }
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.navbar-collapse {
+  height: 100%;
+  overflow-y: auto;
+}
+.footer {
+  background: #008cba;
+  padding: 40px 0;
+  color: white;
+  p {
+    a {
+      display: inline-block;
+      color: inherit;
+      font-size: 2em;
+      float: right;
+    }
+  }
+
+}
